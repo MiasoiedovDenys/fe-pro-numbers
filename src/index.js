@@ -34,10 +34,6 @@ export const getFixedValue = (number, accuracy) => {
     return Number(Math.round(number + 'e' + accuracy) + 'e-' + accuracy);
 };
 
-// function round(value, decimals) {
-//     return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
-// }
-//  console.log(round(3.2345,3))
 /**
  * Если целая часть числа четная, то срабатывает Math.floor для этого числа
  * если нечетное, то Math.ceil
